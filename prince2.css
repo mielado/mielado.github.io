@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   color: #FFF;
   font-family: 'Lobster', cursive;
@@ -17,10 +21,14 @@ h1 {
 
 body {
   background: black;
-  padding: 40px 20px 0px 20px;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-height: 100vh;
 }
 
-h2 {
+.author {
   color: #F73E5F;
   margin-top: 7px;
   text-align: center;
@@ -42,7 +50,6 @@ p {
 .btn {
   font-size: 30px;
   display: inline-block;
-  background: black;
   padding: 30px 18px 0px 18px;
   color: #33CCCC;
   border-radius: 15px;
@@ -54,6 +61,8 @@ p {
 
 footer {
   text-align: center;
+  background: rgba(94, 43, 166, .3);
+  padding-bottom: 15px;
 }
 
 .btn:hover {
@@ -62,15 +71,103 @@ footer {
 }
 
 .copyright {
-  text-align: right;
+  text-align: center;
   color: #FFBF00;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 720px)
+{
   .image-1 {
     float: none;
     clear: both;
     display: block;
-    max-width: 100%;
+    max-width: 100%
   }
+}
+
+header {
+  text-align: center;
+  background: rgba(133, 21, 86, .3);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.nav {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  transition: all 200ms ease-in; 
+  padding: 20px 18px 20px 18px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 30px;
+  border-radius: 45%;
+}
+
+.nav:hover {
+  background: rgba(133, 21, 86, .3);
+  color: #93002F;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.col {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: 'Caveat', cursive;
+  font-size: 32px;
+}
+
+.ctg {
+ background: rgba(210, 155, 232, .5);
+ color: rgba(216, 178, 237, 1);
+ text-align: center;
+ padding: 20px 10px;
+ border-radius: 48%;
+}
+
+.pros {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  transition: all 200ms ease-in; 
+  margin-left: 5%;
+  font-size: 30px;
+}
+
+.pros:hover {
+  color: #9F3ED5;
+}
+
+
+.main {
+  width: 33%;
+  padding: 10px;
+  background: rgb(9, 2, 14);
+  text-decoration: none;
+  display: inline-block;
+  color: #672578;
+  transition: all 200ms ease-in; 
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Marck Script', cursive;
+}
+
+.main2 {
+  flex: 1;
+  padding: 10px;
+  background: url("roses-292595.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h4 {
+  margin-top: 0px;
+  padding: 25px 10px;
 }
