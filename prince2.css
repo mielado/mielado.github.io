@@ -177,10 +177,18 @@ h4 {
  width: 100%
 }
 
-.im {
+.bg {
   background: url("girl-4247592_1280.jpg");
 }
 
 .txt {
   padding-left: 40px;
+}
+
+.bg2 {
+  background: url("butterfly-3827374_1920.jpg");
+}
+
+.bg3 {
+  background: url("water-3354067_1280.jpg");
 }
