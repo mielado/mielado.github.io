@@ -244,3 +244,10 @@ background: url("img/spirit-2304469_1280.jpg");
 .bg16 {
 background: url("img/mussels-3504276_1280.jpg");
 }
+
+.blog {
+  flex: 1;
+  padding: 0px;
+  background: url("img/vector-2481467_1280.jpg");
+  background-repeat: no-repeat;
+}
