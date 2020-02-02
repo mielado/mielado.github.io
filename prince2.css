@@ -287,3 +287,10 @@ background: url("img/mussels-3504276_1280.jpg");
   margin-left: 15px;
   margin-right: 15px;
   }
+  .anchor {
+  font-size: 20px;
+  color: #FF9640;
+  text-decoration: none;
+  font-family: 'Comfortaa', cursive;
+  text-align: right;
+  }
